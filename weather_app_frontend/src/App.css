@@ -6,6 +6,45 @@
   --border-color: rgba(255, 255, 255, 0.1);
 }
 
+/* WeatherEase app styles */
+.weatherease-main input.search-bar:focus {
+  border-color: #2196F3;
+  box-shadow: 0 2px 8px rgba(33,150,243,0.07);
+}
+
+.weather-card {
+  transition: box-shadow 0.17s;
+}
+
+.forecast-scroll::-webkit-scrollbar {
+  height: 8px;
+  background: #eaeaea;
+}
+.forecast-scroll::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+  border-radius: 4px;
+}
+
+.location-search input.search-bar {
+  background: #F7FAFD;
+  color: #444;
+}
+
+.forecast-card {
+  user-select: none;
+  cursor: default;
+}
+
+.weatherease-main a {
+  color: #2196F3;
+  text-decoration: none;
+}
+
+.weatherease-main a:hover {
+  text-decoration: underline;
+}
+
+/* Retain base template styles */
 body {
   margin: 0;
   font-family: 'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif;
